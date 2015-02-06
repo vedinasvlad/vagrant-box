@@ -25,5 +25,5 @@ Vagrant.configure("2") do |config|
     puppet.manifest_file = "default.pp"
   end
 
-  config.vm.network :private_network, ip: "33.33.33.10" //change for every new vagrant box
+  config.vm.network :private_network, ip: "33.33.33.10" #change for every new vagrant box
 end
