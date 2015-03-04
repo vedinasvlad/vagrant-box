@@ -136,5 +136,5 @@ include http
 include php
 include mysql
 include phpmyadmin
-include workspace
+#include workspace
 
