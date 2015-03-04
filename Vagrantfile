@@ -26,4 +26,5 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.network :private_network, ip: "33.33.33.10" #change for every new vagrant box
+  config.vm.synced_folder "project", "/var/www/html"
 end
